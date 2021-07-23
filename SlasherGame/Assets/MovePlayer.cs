@@ -33,7 +33,7 @@ public class MovePlayer : MonoBehaviour
         } else {
             speed = 0.1f;
         }
-        Vector3 moveDir = new Vector3(moveX, moveY);
+        Vector3 moveDir = new Vector3(moveX, moveY).normalized;
         rb.MovePosition(transform.position + moveDir * speed);
 
     }

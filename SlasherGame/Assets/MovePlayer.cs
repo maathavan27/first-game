@@ -5,12 +5,24 @@ using UnityEngine;
 public class MovePlayer : MonoBehaviour
 {
     private Rigidbody2D rb;
+    public Animator animator;
+    Vector2 movement;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         rb.freezeRotation = true;
+    }
+
+    void Update()
+    {
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
     // Update is called once per frame

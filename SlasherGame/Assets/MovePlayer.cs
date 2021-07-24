@@ -23,6 +23,11 @@ public class MovePlayer : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
+
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            Debug.Log("Attack1");
+            animator.Play("attack");
+        }
     }
 
     // Update is called once per frame
@@ -45,6 +50,7 @@ public class MovePlayer : MonoBehaviour
         } else {
             speed = 0.1f;
         }
+        
         Vector3 moveDir = new Vector3(moveX, moveY).normalized;
         rb.MovePosition(transform.position + moveDir * speed);
 

@@ -12,12 +12,14 @@ public class MovePlayer : MonoBehaviour
     public LayerMask enemyLayers;
     private int attackDamage = 20;
     private float lastMovementX;
+    public bool speedup;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         rb.freezeRotation = true;
+        speedup = false;
     }
 
     void Update()
@@ -61,7 +63,7 @@ public class MovePlayer : MonoBehaviour
         {
             moveX = -1;
         }
-        if (Input.GetKey(KeyCode.RightShift))
+        if (Input.GetKey(KeyCode.RightShift) && speedup)
         {
             speed = 0.25f;
         }

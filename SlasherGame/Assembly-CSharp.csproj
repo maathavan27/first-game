@@ -55,6 +55,7 @@
      <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
      <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
      <None Include="Assets\Cainos\Pixel Art Top Down - Basic\Changelog.txt" />
+     <None Include="Assets\Gothicvania Cemetery Artwork\about.txt" />
      <None Include="Assets\Cainos\Pixel Art Top Down - Basic\Shader\SH Sprite Shadow.shader" />
      <None Include="Assets\Martial Hero\License.txt" />
      <None Include="Assets\Cainos\Pixel Art Top Down - Basic\Shader\SH Sprite Shadow Mask.shader" />

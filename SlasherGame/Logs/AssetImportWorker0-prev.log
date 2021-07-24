@@ -1,292 +1,317 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19041.1110; Version 2004; 64bit' Language: 'en' Physical Memory: 16315 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-K:\Unity Hub\2020.3.13f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Kapilan Balakrishnan/Documents/GitHub/first-game/SlasherGame
+/Users/ascwinkirupakaran/Documents/GitHub/financial-calculator/first-game/SlasherGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52871
+<<<<<<< Updated upstream
+60300
 Successfully changed project path to: C:/Users/Kapilan Balakrishnan/Documents/GitHub/first-game/SlasherGame
 C:/Users/Kapilan Balakrishnan/Documents/GitHub/first-game/SlasherGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 52.36 ms, found 3 plugins.
+=======
+59176
+Successfully changed project path to: /Users/ascwinkirupakaran/Documents/GitHub/financial-calculator/first-game/SlasherGame
+/Users/ascwinkirupakaran/Documents/GitHub/financial-calculator/first-game/SlasherGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 46.47 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
-[Subsystems] Discovering subsystems at path K:/Unity Hub/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Kapilan Balakrishnan/Documents/GitHub/first-game/SlasherGame/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ascwinkirupakaran/Documents/GitHub/financial-calculator/first-game/SlasherGame/Assets
 GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon RX 580 Series (ID=0x67df)
-    Vendor:   
-    VRAM:     8171 MB
-    Driver:   27.20.22001.14011
+2021-07-23 20:31:58.380 Unity[31077:2904920] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-07-23 20:31:58.380 Unity[31077:2904920] Metal devices available: 1
+2021-07-23 20:31:58.380 Unity[31077:2904920] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-07-23 20:31:58.381 Unity[31077:2904920] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
 Initialize mono
+<<<<<<< Updated upstream
 Mono path[0] = 'K:/Unity Hub/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'K:/Unity Hub/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'K:/Unity Hub/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: K:/Unity Hub/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001751 seconds.
+Registered in 0.001425 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 58.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.199 seconds
+- Completed reload, in  1.091 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006062 seconds.
+Registered in 0.005142 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 48.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.487 seconds
+- Completed reload, in  1.243 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+=======
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56077
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.13f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003389 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 43.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.018 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008642 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 45.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.365 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.4 MB.
-System memory in use after: 93.4 MB.
+System memory in use before: 171.4 MB.
+System memory in use after: 171.3 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2527.
-Total: 3.820500 ms (FindLiveObjects: 0.319800 ms CreateObjectMapping: 0.066500 ms MarkObjects: 3.207300 ms  DeleteObjects: 0.225300 ms)
+<<<<<<< Updated upstream
+Total: 2.280800 ms (FindLiveObjects: 0.185500 ms CreateObjectMapping: 0.050000 ms MarkObjects: 1.914700 ms  DeleteObjects: 0.129600 ms)
+=======
+Total: 2.517321 ms (FindLiveObjects: 0.212747 ms CreateObjectMapping: 0.076268 ms MarkObjects: 2.095352 ms  DeleteObjects: 0.132093 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
+  path: Assets/Martial Hero/Sprites/Run_flipped.png
+  artifactKey: Guid(7bcd046ffc9415541ae54813892b2b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Run_flipped.png using Guid(7bcd046ffc9415541ae54813892b2b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601a8ecde81772ef9796510bc6695aac') in 0.107043 seconds 
+  Import took 0.110206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.289946 seconds.
+  path: Assets/Martial Hero/Sprites/Run_flipped.png
+  artifactKey: Guid(7bcd046ffc9415541ae54813892b2b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Run_flipped.png using Guid(7bcd046ffc9415541ae54813892b2b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f25cafc76867252efe0d7e096ce2d34') in 0.013979 seconds 
+  Import took 0.017786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016445 seconds.
+  path: Assets/Martial Hero/Sprites/Run_flipped.png
+  artifactKey: Guid(7bcd046ffc9415541ae54813892b2b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Run_flipped.png using Guid(7bcd046ffc9415541ae54813892b2b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f25cafc76867252efe0d7e096ce2d34') in 0.006984 seconds 
+  Import took 0.010902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.581759 seconds.
+  path: Assets/Martial Hero/Sprites/Run_flipped.png
+  artifactKey: Guid(7bcd046ffc9415541ae54813892b2b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Run_flipped.png using Guid(7bcd046ffc9415541ae54813892b2b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd179b549b7a60f0b36ebd5018d980c0') in 0.025769 seconds 
+  Import took 0.029017 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006157 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.127 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2541.
+Total: 2.258700 ms (FindLiveObjects: 0.197900 ms CreateObjectMapping: 0.050200 ms MarkObjects: 1.900700 ms  DeleteObjects: 0.109000 ms)
+=======
   path: Assets/PlayerSprite.png
   artifactKey: Guid(92a4c0ce37dee454cbfa98523d7e70a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerSprite.png using Guid(92a4c0ce37dee454cbfa98523d7e70a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abb34e8c394ffc412c63db243cf0a74') in 0.131372 seconds 
-  Import took 0.135360 seconds .
+Start importing Assets/PlayerSprite.png using Guid(92a4c0ce37dee454cbfa98523d7e70a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be37f576793cebd19629f5e466d387f') in 0.240315 seconds 
+  Import took 0.243770 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Player.prefab
+  Time since last request: 0.000230 seconds.
+  path: Assets/player.prefab
   artifactKey: Guid(82b6807934dd0fc4880ad8162495eeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player.prefab using Guid(82b6807934dd0fc4880ad8162495eeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd334825c451df8c3395f1858a735c0bb') in 0.046555 seconds 
-  Import took 0.050513 seconds .
+Start importing Assets/player.prefab using Guid(82b6807934dd0fc4880ad8162495eeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835b3767e5882aa64bd883cecf3fe54f') in 0.277946 seconds 
+  Import took 0.281532 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
+  Time since last request: 0.000241 seconds.
   path: Assets/TreeSprite.png
   artifactKey: Guid(9959db1218bca6646bad34260147a41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TreeSprite.png using Guid(9959db1218bca6646bad34260147a41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8a4ac6772398ec5757f0149d474e39') in 0.014928 seconds 
-  Import took 0.019467 seconds .
+Start importing Assets/TreeSprite.png using Guid(9959db1218bca6646bad34260147a41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34b0cf1fe955a9ebb929cec63900f8d') in 0.007323 seconds 
+  Import took 0.010448 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000265 seconds.
+  Time since last request: 0.000223 seconds.
   path: Assets/Tree.prefab
   artifactKey: Guid(82f5001600155f04495b5b78ac2e1102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree.prefab using Guid(82f5001600155f04495b5b78ac2e1102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46737f152d0b049823e9ea50a87ea11') in 0.014881 seconds 
-  Import took 0.019281 seconds .
+Start importing Assets/Tree.prefab using Guid(82f5001600155f04495b5b78ac2e1102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e817cc6e5b8cafa012d0493ef775716') in 0.012930 seconds 
+  Import took 0.016467 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.367170 seconds.
-  path: Assets/Cainos/Pixel Art Top Down - Basic
-  artifactKey: Guid(16e6903942d9bf94d9dd684620613d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Top Down - Basic using Guid(16e6903942d9bf94d9dd684620613d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021a6638c961ad95b6514434c89ba980') in 0.009878 seconds 
-  Import took 0.014179 seconds .
+  Time since last request: 15.077952 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Scenes
+  artifactKey: Guid(09bc5835e3c6a914cb3778c2a9353dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Scenes using Guid(09bc5835e3c6a914cb3778c2a9353dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94565efbb18c0b4baa1c815cd29e1b0a') in 0.000893 seconds 
+  Import took 0.004893 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006779 seconds.
-  path: Assets/Cainos/Pixel Art Top Down - Basic
-  artifactKey: Guid(16e6903942d9bf94d9dd684620613d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Top Down - Basic using Guid(16e6903942d9bf94d9dd684620613d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021a6638c961ad95b6514434c89ba980') in 0.003478 seconds 
-  Import took 0.007616 seconds .
+  Time since last request: 1.060671 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69fc4feadbb6151c86eb4dccb872081f') in 0.001623 seconds 
+  Import took 0.005963 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.541050 seconds.
-  path: Assets/Martial Hero/Animations
-  artifactKey: Guid(c3426144bb91fbb4e957c903ca9719d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Animations using Guid(c3426144bb91fbb4e957c903ca9719d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefdf7af2f60eaf25a549f4b7fd97672') in 0.009305 seconds 
-  Import took 0.013118 seconds .
+  Time since last request: 8.699138 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Environment
+  artifactKey: Guid(a962f62f0695f486998bb7fbef833193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Environment using Guid(a962f62f0695f486998bb7fbef833193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabe6c8705c19f5d369ac74dfa823498') in 0.001156 seconds 
+  Import took 0.005276 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.540682 seconds.
-  path: Assets/Martial Hero/Demo
-  artifactKey: Guid(61bf7d64f1b403e429b1f884516ef387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Demo using Guid(61bf7d64f1b403e429b1f884516ef387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a414b2ebd3a7642891df6905340430d') in 0.003342 seconds 
-  Import took 0.006992 seconds .
+  Time since last request: 0.563846 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Scenes
+  artifactKey: Guid(c6990c39af6f74a2f8880312d7dad451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Scenes using Guid(c6990c39af6f74a2f8880312d7dad451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc5987b3232a04ff6f81316be68383e') in 0.001120 seconds 
+  Import took 0.010791 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.778438 seconds.
-  path: Assets/Martial Hero/Sprites
-  artifactKey: Guid(2c7d9fe9af7dc4d43afd14e007caf1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites using Guid(2c7d9fe9af7dc4d43afd14e007caf1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3448c045075338c6f829e085a4a3ff2d') in 0.008529 seconds 
-  Import took 0.011941 seconds .
+  Time since last request: 8.951305 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/ghost
+  artifactKey: Guid(6325c2000e6ee4229b20d13a3a5fba49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/ghost using Guid(6325c2000e6ee4229b20d13a3a5fba49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23bdaf4de8bea24c8750180732b2885') in 0.000989 seconds 
+  Import took 0.004641 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.056058 seconds.
-  path: Assets/Martial Hero/Sprites/Attack1.png
-  artifactKey: Guid(c50b517797d93614aac4ca58aaf97355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Attack1.png using Guid(c50b517797d93614aac4ca58aaf97355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a7b15c6f7afc54270551b91be4ae95') in 0.028306 seconds 
-  Import took 0.032572 seconds .
+  Time since last request: 0.070709 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/ghost/ghost-1.png
+  artifactKey: Guid(1d5c2b524d7734240a82bc6b06f841c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/ghost/ghost-1.png using Guid(1d5c2b524d7734240a82bc6b06f841c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8f269de7939eedb116721eb0cf3e44') in 0.015504 seconds 
+  Import took 0.020337 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000229 seconds.
-  path: Assets/Martial Hero/Sprites/Take Hit.png
-  artifactKey: Guid(dafba786f4f5b8242bc098edbf954165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Take Hit.png using Guid(dafba786f4f5b8242bc098edbf954165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a835bbe9f89319c59644c429dec5aa98') in 0.024913 seconds 
-  Import took 0.029338 seconds .
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/ghost/ghost-3.png
+  artifactKey: Guid(e1c9c79a6cfb64779be8959eb9a07135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/ghost/ghost-3.png using Guid(e1c9c79a6cfb64779be8959eb9a07135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a54654ccf1e75967b992c92fffb656') in 0.007655 seconds 
+  Import took 0.012219 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Martial Hero/Sprites/Death.png
-  artifactKey: Guid(1db9a306592ac9545975fcdd51459943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Death.png using Guid(1db9a306592ac9545975fcdd51459943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b998ecf7ac0d7d1495a85a6ee2902379') in 0.029485 seconds 
-  Import took 0.033678 seconds .
+  Time since last request: 0.000232 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/ghost/ghost-2.png
+  artifactKey: Guid(b2c048db9a71e41db8ffaaa5ae6de419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/ghost/ghost-2.png using Guid(b2c048db9a71e41db8ffaaa5ae6de419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e5bd94362032f013d37f1bba26b68d') in 0.011399 seconds 
+  Import took 0.018917 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Martial Hero/Sprites/Run.png
-  artifactKey: Guid(02be9b757efc1074bb374de531df0219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Run.png using Guid(02be9b757efc1074bb374de531df0219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3504ab591105f7c3f4f6304a5c07d8') in 0.034748 seconds 
-  Import took 0.038253 seconds .
+  Time since last request: 0.000223 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/ghost/ghost-4.png
+  artifactKey: Guid(808de4245642e430a835218942e63602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/ghost/ghost-4.png using Guid(808de4245642e430a835218942e63602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009dbd00630e11f84a9ab9c1d77b5180') in 0.007188 seconds 
+  Import took 0.011168 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Martial Hero/Sprites/Fall.png
-  artifactKey: Guid(ab9c6780bd1ac3c4fb318722a17a5862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Fall.png using Guid(ab9c6780bd1ac3c4fb318722a17a5862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3e75ca6cf8c371808bd4055aa442e5') in 0.019656 seconds 
-  Import took 0.023548 seconds .
+  Time since last request: 1.183855 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/enemy-death/enemy-death-1.png
+  artifactKey: Guid(74a19e90cfc0c443d9b91064e41bf9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/enemy-death/enemy-death-1.png using Guid(74a19e90cfc0c443d9b91064e41bf9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8335e3abeb73676eb2440d6cfe4ac9a') in 0.007594 seconds 
+  Import took 0.011641 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Martial Hero/Sprites/Idle.png
-  artifactKey: Guid(0bd97e23f8b532a4f8969605a3b00a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Idle.png using Guid(0bd97e23f8b532a4f8969605a3b00a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e81f3ab79f5f21331c2433cb4f94a5') in 0.033321 seconds 
-  Import took 0.038078 seconds .
+  Time since last request: 0.000177 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/enemy-death/enemy-death-5.png
+  artifactKey: Guid(7822739229de84cdfba177d2ae9b4529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/enemy-death/enemy-death-5.png using Guid(7822739229de84cdfba177d2ae9b4529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0477764752cf810cc47453ae6edd20a7') in 0.008746 seconds 
+  Import took 0.014413 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Martial Hero/Sprites/Jump.png
-  artifactKey: Guid(efffe4e87e655434db7d78f603ef99bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Jump.png using Guid(efffe4e87e655434db7d78f603ef99bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd391d543283d4e67da701d040ad2c189') in 0.017143 seconds 
-  Import took 0.021396 seconds .
+  Time since last request: 0.000267 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/enemy-death/enemy-death-3.png
+  artifactKey: Guid(38ead65714fcf4c52b5b031a59cb4a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/enemy-death/enemy-death-3.png using Guid(38ead65714fcf4c52b5b031a59cb4a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a59f9ace7d3b60b6676214c009ed213') in 0.009304 seconds 
+  Import took 0.013630 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Martial Hero/Sprites/Take Hit - white silhouette.png
-  artifactKey: Guid(5f3849e414a15ef4bafea810f38d8e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Take Hit - white silhouette.png using Guid(5f3849e414a15ef4bafea810f38d8e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe905509c10bb4b487a88e4531bc187') in 0.023643 seconds 
-  Import took 0.028950 seconds .
+  Time since last request: 0.000199 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/enemy-death/enemy-death-4.png
+  artifactKey: Guid(c81d4f5e629154ef9bf7c5b3cad8f9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/enemy-death/enemy-death-4.png using Guid(c81d4f5e629154ef9bf7c5b3cad8f9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0ac63ee5e8d3750c9791cc32cb2025') in 0.012724 seconds 
+  Import took 0.019271 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Martial Hero/Sprites/Attack2.png
-  artifactKey: Guid(aec5070f5cb24b24e9fbdf06b0d1faf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Attack2.png using Guid(aec5070f5cb24b24e9fbdf06b0d1faf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913fc673402d5c12db3eca3d0e1b6cce') in 0.029240 seconds 
-  Import took 0.033439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002303 seconds.
-  path: Assets/Martial Hero/Sprites/Attack2.png
-  artifactKey: Guid(aec5070f5cb24b24e9fbdf06b0d1faf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Attack2.png using Guid(aec5070f5cb24b24e9fbdf06b0d1faf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913fc673402d5c12db3eca3d0e1b6cce') in 0.028303 seconds 
-  Import took 0.032522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.020379 seconds.
-  path: Assets/Martial Hero
-  artifactKey: Guid(ac0ebcfbc6ef54ecd95417a892b5cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero using Guid(ac0ebcfbc6ef54ecd95417a892b5cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adce8b475bb83b09a74ad2bb0e48d46') in 0.008176 seconds 
-  Import took 0.012174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 159.758273 seconds.
-  path: Assets/Cainos
-  artifactKey: Guid(3d6099e56e2553346b5911e14e4c84d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos using Guid(3d6099e56e2553346b5911e14e4c84d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f97c12c97772872bba0861076046b81') in 0.009033 seconds 
-  Import took 0.012605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.510773 seconds.
-  path: Assets/Cainos/Pixel Art Top Down - Basic/Scene
-  artifactKey: Guid(5f41ae091d9f7be4798cc5dbc7f22d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Top Down - Basic/Scene using Guid(5f41ae091d9f7be4798cc5dbc7f22d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2ee4e035f223eea66787d0ac369bad') in 0.008102 seconds 
-  Import took 0.011834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.326577 seconds.
-  path: Assets/Cainos/Pixel Art Top Down - Basic/Scenes
-  artifactKey: Guid(09bc5835e3c6a914cb3778c2a9353dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Top Down - Basic/Scenes using Guid(09bc5835e3c6a914cb3778c2a9353dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be89506d5c01ed014e3886dfb0e8f4d5') in 0.008927 seconds 
-  Import took 0.012313 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.845379 seconds.
-  path: Assets/Cainos/Pixel Art Top Down - Basic/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Top Down - Basic/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18f2a2e6147bb2e6e3b1b91337ef924') in 0.003741 seconds 
-  Import took 0.007838 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006524 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.426 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.2 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2544.
-Total: 3.110900 ms (FindLiveObjects: 0.234200 ms CreateObjectMapping: 0.051600 ms MarkObjects: 2.690200 ms  DeleteObjects: 0.133200 ms)
+  Time since last request: 0.000697 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/enemy-death/enemy-death-2.png
+  artifactKey: Guid(c47945c92819e41d584c4aff1694e68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/enemy-death/enemy-death-2.png using Guid(c47945c92819e41d584c4aff1694e68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ab1eb89f040f89f19511d3e6d28c7a') in 0.012935 seconds 
+  Import took 0.019558 seconds .
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -299,372 +324,440 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+<<<<<<< Updated upstream
+  Time since last request: 514.035586 seconds.
+  path: Assets/Martial Hero/Sprites/Run_flipped.png
+  artifactKey: Guid(7bcd046ffc9415541ae54813892b2b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Run_flipped.png using Guid(7bcd046ffc9415541ae54813892b2b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b254a0160ba6ee4d55716183777e8906') in 0.071268 seconds 
+  Import took 0.074807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 287.572948 seconds.
+  path: Assets/Martial Hero/Sprites/animation_idle.anim
+  artifactKey: Guid(feacbdc03a87a634e8e63b81c27750a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/animation_idle.anim using Guid(feacbdc03a87a634e8e63b81c27750a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f69f2c5f982890cfba11e7f136608eb') in 0.012438 seconds 
+  Import took 0.016405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.719667 seconds.
+  path: Assets/Martial Hero/Sprites/Player.controller
+  artifactKey: Guid(32beb109c31a1a4478c0b4812acfb787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Player.controller using Guid(32beb109c31a1a4478c0b4812acfb787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7290cf24ba4ae150e4172079c9860b43') in 0.010767 seconds 
+  Import took 0.014040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000798 seconds.
+  path: Assets/Martial Hero/Sprites/Player.controller
+  artifactKey: Guid(32beb109c31a1a4478c0b4812acfb787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Player.controller using Guid(32beb109c31a1a4478c0b4812acfb787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7290cf24ba4ae150e4172079c9860b43') in 0.004666 seconds 
+  Import took 0.007757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3039.759211 seconds.
+  path: Assets/MovePlayer.cs
+  artifactKey: Guid(857e471f84150714180b44a3bf935569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MovePlayer.cs using Guid(857e471f84150714180b44a3bf935569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3db4a04a5cc54ec0d07dd19fc4c7447') in 0.012388 seconds 
+  Import took 0.015856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025394 seconds.
+  path: Assets/MovePlayer.cs
+  artifactKey: Guid(857e471f84150714180b44a3bf935569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MovePlayer.cs using Guid(857e471f84150714180b44a3bf935569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3db4a04a5cc54ec0d07dd19fc4c7447') in 0.002857 seconds 
+  Import took 0.006782 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005568 seconds.
+Registered in 0.005329 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.522 seconds
+- Completed reload, in  1.140 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.2 MB.
 System memory in use after: 96.2 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2548.
-Total: 3.958300 ms (FindLiveObjects: 0.479000 ms CreateObjectMapping: 0.165900 ms MarkObjects: 3.159300 ms  DeleteObjects: 0.151600 ms)
+Total: 2.489600 ms (FindLiveObjects: 0.202800 ms CreateObjectMapping: 0.048800 ms MarkObjects: 2.107000 ms  DeleteObjects: 0.129200 ms)
+=======
+  Time since last request: 0.874892 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/ghost-halo/ghost-halo-1.png
+  artifactKey: Guid(3bd6ae9ed48144bf6b53332d6b4a753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/ghost-halo/ghost-halo-1.png using Guid(3bd6ae9ed48144bf6b53332d6b4a753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa9c2bb14909e024c376e018b1950cb') in 0.007303 seconds 
+  Import took 0.011118 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/ghost-halo/ghost-halo-2.png
+  artifactKey: Guid(3faa96492b9604acc8a0d0f42598b6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/ghost-halo/ghost-halo-2.png using Guid(3faa96492b9604acc8a0d0f42598b6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db368439492323a09a653826486a5728') in 0.008660 seconds 
+  Import took 0.013694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/ghost-halo/ghost-halo-3.png
+  artifactKey: Guid(1d34a9c9c4889499385ae57a53c8ca93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/ghost-halo/ghost-halo-3.png using Guid(1d34a9c9c4889499385ae57a53c8ca93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517dfff62220545bb5da9cb2162a015c') in 0.010251 seconds 
+  Import took 0.019777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/ghost-halo/ghost-halo-4.png
+  artifactKey: Guid(7ddda95dbd0f54007b8531f7d48c082e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/ghost-halo/ghost-halo-4.png using Guid(7ddda95dbd0f54007b8531f7d48c082e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f95d169e5839870b893dc93293ff645') in 0.010977 seconds 
+  Import took 0.016577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.037119 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/hell-gato/hell-gato-1.png
+  artifactKey: Guid(c5650e72c34344f699287f969a247dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/hell-gato/hell-gato-1.png using Guid(c5650e72c34344f699287f969a247dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c6740dec2e064a23d8b3f6a1e54ac3') in 0.009304 seconds 
+  Import took 0.013595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/hell-gato/hell-gato-4.png
+  artifactKey: Guid(04e5a1d1ff3dc4c7f81a700a52c1d002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/hell-gato/hell-gato-4.png using Guid(04e5a1d1ff3dc4c7f81a700a52c1d002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2501d58c2889a3288dda6b604897fa1') in 0.007628 seconds 
+  Import took 0.011867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/hell-gato/hell-gato-3.png
+  artifactKey: Guid(a9d1b1763e4e44edc8ae416cba5b8521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/hell-gato/hell-gato-3.png using Guid(a9d1b1763e4e44edc8ae416cba5b8521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985b4ab5af4fd47ce6c76f706bc4135b') in 0.022029 seconds 
+  Import took 0.026688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/hell-gato/hell-gato-2.png
+  artifactKey: Guid(d16f6ba6c89844e598ca1a4864cd8372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/hell-gato/hell-gato-2.png using Guid(d16f6ba6c89844e598ca1a4864cd8372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5420b153408f357f4784675418588d1a') in 0.015924 seconds 
+  Import took 0.022360 seconds .
+>>>>>>> Stashed changes
+
+========================================================================
+Received Import Request.
+<<<<<<< Updated upstream
+  Time since last request: 317.010028 seconds.
+  path: Assets/MovePlayer.cs
+  artifactKey: Guid(857e471f84150714180b44a3bf935569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MovePlayer.cs using Guid(857e471f84150714180b44a3bf935569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c598b3f0941bbb9f478dece4e3034e8c') in 0.005798 seconds 
+  Import took 0.008945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.012115 seconds.
+  path: Assets/CameraFollow.cs
+  artifactKey: Guid(bc7f73ec71b2d424ab39e1caccb4331e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CameraFollow.cs using Guid(bc7f73ec71b2d424ab39e1caccb4331e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c721b5d1b5e15e5c2263496fbcd4abdb') in 0.008994 seconds 
+  Import took 0.012497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 194.827737 seconds.
+  path: Assets/MovePlayer.cs
+  artifactKey: Guid(857e471f84150714180b44a3bf935569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MovePlayer.cs using Guid(857e471f84150714180b44a3bf935569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b02e3b7ff7c771d2565614d1283ab6') in 0.003112 seconds 
+  Import took 0.006480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 184.968766 seconds.
+  path: Assets/MovePlayer.cs
+  artifactKey: Guid(857e471f84150714180b44a3bf935569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MovePlayer.cs using Guid(857e471f84150714180b44a3bf935569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de04065b60387a074cc86b4c9c983fef') in 0.003067 seconds 
+  Import took 0.006845 seconds .
+
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007081 seconds.
+Registered in 0.005933 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.491 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.2 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2552.
-Total: 3.605300 ms (FindLiveObjects: 0.276500 ms CreateObjectMapping: 0.052900 ms MarkObjects: 3.102300 ms  DeleteObjects: 0.171700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007906 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.507 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.3 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2556.
-Total: 3.678500 ms (FindLiveObjects: 0.365100 ms CreateObjectMapping: 0.068400 ms MarkObjects: 2.947800 ms  DeleteObjects: 0.295400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.029574 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.938 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.3 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2560.
-Total: 4.701200 ms (FindLiveObjects: 0.342300 ms CreateObjectMapping: 0.069300 ms MarkObjects: 4.103000 ms  DeleteObjects: 0.184200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010935 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.424 seconds
+- Completed reload, in  1.102 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.3 MB.
+System memory in use before: 96.2 MB.
+System memory in use after: 96.2 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2564.
-Total: 2.590100 ms (FindLiveObjects: 0.214700 ms CreateObjectMapping: 0.049200 ms MarkObjects: 2.151800 ms  DeleteObjects: 0.172900 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2552.
+Total: 2.605100 ms (FindLiveObjects: 0.195700 ms CreateObjectMapping: 0.050900 ms MarkObjects: 2.231400 ms  DeleteObjects: 0.125600 ms)
+=======
+  Time since last request: 8.311527 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton/skeleton-1.png
+  artifactKey: Guid(3d7ea891e5aa9415e9bf6d2e52d3d0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton/skeleton-1.png using Guid(3d7ea891e5aa9415e9bf6d2e52d3d0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60a0fb080c25d564382e57bc65f963a') in 0.007874 seconds 
+  Import took 0.012375 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton/skeleton-6.png
+  artifactKey: Guid(fc69ca891045b4c4fa63ad8e8adcb0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton/skeleton-6.png using Guid(fc69ca891045b4c4fa63ad8e8adcb0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbe4319a3b0c4d9a430444a81520182') in 0.007636 seconds 
+  Import took 0.012718 seconds .
+>>>>>>> Stashed changes
+
+========================================================================
+Received Import Request.
+<<<<<<< Updated upstream
+  Time since last request: 19.559663 seconds.
+  path: Assets/MovePlayer.cs
+  artifactKey: Guid(857e471f84150714180b44a3bf935569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MovePlayer.cs using Guid(857e471f84150714180b44a3bf935569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57788e771d5d08b3eff425f39400854a') in 0.007725 seconds 
+  Import took 0.010805 seconds .
+
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004948 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.133 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.3 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2568.
-Total: 2.445600 ms (FindLiveObjects: 0.209100 ms CreateObjectMapping: 0.050900 ms MarkObjects: 2.058300 ms  DeleteObjects: 0.126300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005579 seconds.
+Registered in 0.006587 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.199 seconds
+- Completed reload, in  1.125 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.3 MB.
-System memory in use after: 96.3 MB.
+System memory in use after: 96.2 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2572.
-Total: 2.876300 ms (FindLiveObjects: 0.235400 ms CreateObjectMapping: 0.053400 ms MarkObjects: 2.455700 ms  DeleteObjects: 0.130300 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2556.
+Total: 2.385500 ms (FindLiveObjects: 0.203600 ms CreateObjectMapping: 0.048800 ms MarkObjects: 2.005000 ms  DeleteObjects: 0.126700 ms)
+=======
+  Time since last request: 0.000310 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton/skeleton-2.png
+  artifactKey: Guid(669f93acf538644e4b4006f1254584bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton/skeleton-2.png using Guid(669f93acf538644e4b4006f1254584bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a147642d37e027ae0ecff17815a6ed5') in 0.010357 seconds 
+  Import took 0.017317 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton/skeleton-4.png
+  artifactKey: Guid(f6ae5c6eb3851473aae131afd6eefb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton/skeleton-4.png using Guid(f6ae5c6eb3851473aae131afd6eefb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f44d848babe12edc805498c4dabacc') in 0.012329 seconds 
+  Import took 0.016794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton/skeleton-8.png
+  artifactKey: Guid(5eecfe529c8c346bd99ca1b28638f8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton/skeleton-8.png using Guid(5eecfe529c8c346bd99ca1b28638f8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63f3fb84f9857d36ce7df71378619cf') in 0.007497 seconds 
+  Import took 0.012032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton/skeleton-5.png
+  artifactKey: Guid(2d54e9cca4323409ca3a67d12ae4bd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton/skeleton-5.png using Guid(2d54e9cca4323409ca3a67d12ae4bd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c70cfb40e1471cef5700e475f7534a8') in 0.011626 seconds 
+  Import took 0.015633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton/skeleton-7.png
+  artifactKey: Guid(3a37352b56a2d463e97ce29cdacca279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton/skeleton-7.png using Guid(3a37352b56a2d463e97ce29cdacca279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8540b3d3feef29a90de4801af4b7fac3') in 0.009808 seconds 
+  Import took 0.014716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton/skeleton-3.png
+  artifactKey: Guid(8c88c4f4340b14d1bb3506e2d2dc27cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton/skeleton-3.png using Guid(8c88c4f4340b14d1bb3506e2d2dc27cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5390057933c3ed020f4f12a9da9229') in 0.011516 seconds 
+  Import took 0.015982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.585911 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-clothed/skeleton-clothed-1.png
+  artifactKey: Guid(70503d71a0abb4818823e52b03def6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-clothed/skeleton-clothed-1.png using Guid(70503d71a0abb4818823e52b03def6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bc22870f9129f1e29e6fd16d639ff8') in 0.007299 seconds 
+  Import took 0.011722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-clothed/skeleton-clothed-2.png
+  artifactKey: Guid(f143b7e32458a4ac3b29c519ff920e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-clothed/skeleton-clothed-2.png using Guid(f143b7e32458a4ac3b29c519ff920e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9eda110d577a0840964b77af92cb5c') in 0.010235 seconds 
+  Import took 0.017206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-clothed/skeleton-clothed-4.png
+  artifactKey: Guid(c7d83ea6e359a4ee9943372cba4542d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-clothed/skeleton-clothed-4.png using Guid(c7d83ea6e359a4ee9943372cba4542d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81908ae9366d897fd7cf360033acb458') in 0.008817 seconds 
+  Import took 0.012699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-clothed/skeleton-clothed-6.png
+  artifactKey: Guid(10600c70f060b46808cda88dd6de6104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-clothed/skeleton-clothed-6.png using Guid(10600c70f060b46808cda88dd6de6104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c34bcd3ad6eb614bf2f4e4dc62226d') in 0.030490 seconds 
+  Import took 0.037506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-clothed/skeleton-clothed-5.png
+  artifactKey: Guid(aabc1c19f969648f1b7f276f8fbe99c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-clothed/skeleton-clothed-5.png using Guid(aabc1c19f969648f1b7f276f8fbe99c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7b43bfc19fec96efb8f561d265c9c2') in 0.018600 seconds 
+  Import took 0.025961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-clothed/skeleton-clothed-8.png
+  artifactKey: Guid(ca4274691df674ee4a7c71fcc3d229d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-clothed/skeleton-clothed-8.png using Guid(ca4274691df674ee4a7c71fcc3d229d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd198e11a1660e8ec55b911a73e438a6') in 0.009804 seconds 
+  Import took 0.014164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-clothed/skeleton-clothed-7.png
+  artifactKey: Guid(a56bbfeb88ec440b5bc29a32f5368038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-clothed/skeleton-clothed-7.png using Guid(a56bbfeb88ec440b5bc29a32f5368038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd512aee09dc73358956bc8ed853461') in 0.009740 seconds 
+  Import took 0.017667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-clothed/skeleton-clothed-3.png
+  artifactKey: Guid(9fb83bc13a73444cd84409f9632bf64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-clothed/skeleton-clothed-3.png using Guid(9fb83bc13a73444cd84409f9632bf64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b3c1aad4fdddd573f30f39f7930594') in 0.007062 seconds 
+  Import took 0.011276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.364231 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-rise/skeleton-rise-1.png
+  artifactKey: Guid(d18eab46d609f4d08b99c900f2571616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-rise/skeleton-rise-1.png using Guid(d18eab46d609f4d08b99c900f2571616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfba8bbec87107f679408d967ca2e00') in 0.007811 seconds 
+  Import took 0.011864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-rise/skeleton-rise-2.png
+  artifactKey: Guid(5782e1e370b60411293f59b32c07308b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-rise/skeleton-rise-2.png using Guid(5782e1e370b60411293f59b32c07308b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d569b661e3a91f358edbb5041500c2') in 0.009072 seconds 
+  Import took 0.014602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-rise/skeleton-rise-6.png
+  artifactKey: Guid(4bd0e5e12ce7c4688b44071df7db9a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-rise/skeleton-rise-6.png using Guid(4bd0e5e12ce7c4688b44071df7db9a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45ca318dd89c1809572c209f61fc6a8') in 0.010119 seconds 
+  Import took 0.016427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-rise/skeleton-rise-5.png
+  artifactKey: Guid(58eadfbeb77c7494882ea3bab149081c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-rise/skeleton-rise-5.png using Guid(58eadfbeb77c7494882ea3bab149081c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f789dd09f31b300675a602d45d71f69') in 0.019389 seconds 
+  Import took 0.026484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-rise/skeleton-rise-3.png
+  artifactKey: Guid(2a93de60bc0ba4f51b49736acd956d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-rise/skeleton-rise-3.png using Guid(2a93de60bc0ba4f51b49736acd956d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aaa3f24f77682bf67ad3a4172bd1c08') in 0.014292 seconds 
+  Import took 0.020819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-rise/skeleton-rise-4.png
+  artifactKey: Guid(879f6d207d2e141bb8cf1f983eeca737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gothicvania Cemetery Artwork/Sprites/skeleton-rise/skeleton-rise-4.png using Guid(879f6d207d2e141bb8cf1f983eeca737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e0115fcf6dcb28aa6cdb88cadc1657') in 0.011286 seconds 
+  Import took 0.017734 seconds .
+>>>>>>> Stashed changes
+
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004978 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.177 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.3 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2576.
-Total: 2.750000 ms (FindLiveObjects: 0.261500 ms CreateObjectMapping: 0.066500 ms MarkObjects: 2.279700 ms  DeleteObjects: 0.140900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006119 seconds.
+<<<<<<< Updated upstream
+Registered in 0.005047 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.171 seconds
+- Completed reload, in  1.091 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.3 MB.
-System memory in use after: 96.3 MB.
+System memory in use after: 96.2 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2580.
-Total: 2.399700 ms (FindLiveObjects: 0.203900 ms CreateObjectMapping: 0.050400 ms MarkObjects: 2.019400 ms  DeleteObjects: 0.124700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1452.314783 seconds.
-  path: Assets/Martial Hero/Sprites/New Animation.anim
-  artifactKey: Guid(7c3f3c90e5c7149fb80c2ea491143a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/New Animation.anim using Guid(7c3f3c90e5c7149fb80c2ea491143a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e5366b4271561564c90ce8df81be6e') in 0.023634 seconds 
-  Import took 0.028865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001776 seconds.
-  path: Assets/Martial Hero/Sprites/New Animation.anim
-  artifactKey: Guid(7c3f3c90e5c7149fb80c2ea491143a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/New Animation.anim using Guid(7c3f3c90e5c7149fb80c2ea491143a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e5366b4271561564c90ce8df81be6e') in 0.003893 seconds 
-  Import took 0.008158 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.962449 seconds.
-  path: Assets/Martial Hero/Sprites/Player.controller
-  artifactKey: Guid(32beb109c31a1a4478c0b4812acfb787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Player.controller using Guid(32beb109c31a1a4478c0b4812acfb787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42727ac6cb9546f137cbb7c115e41b6c') in 0.006247 seconds 
-  Import took 0.010255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.414431 seconds.
-  path: Assets/Martial Hero/Sprites/Run_0 1.controller
-  artifactKey: Guid(a477bdb7f228645d4b1ce1de8b341048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Run_0 1.controller using Guid(a477bdb7f228645d4b1ce1de8b341048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e46473309b19f43419289178ba4aa89') in 0.009007 seconds 
-  Import took 0.013006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.120071 seconds.
-  path: Assets/Martial Hero/Sprites/Run_0.controller
-  artifactKey: Guid(986559e9edf114ecc842abadf353e891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Martial Hero/Sprites/Run_0.controller using Guid(986559e9edf114ecc842abadf353e891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc7b0904cca68c81e62ac69188d7ea6') in 0.004548 seconds 
-  Import took 0.008394 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004954 seconds.
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2560.
+Total: 2.530200 ms (FindLiveObjects: 0.210900 ms CreateObjectMapping: 0.050400 ms MarkObjects: 2.135500 ms  DeleteObjects: 0.131900 ms)
+=======
+Registered in 0.004091 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.108 seconds
+- Completed reload, in  1.233 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.3 MB.
+System memory in use before: 183.4 MB.
+System memory in use after: 183.4 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2584.
-Total: 2.288300 ms (FindLiveObjects: 0.198100 ms CreateObjectMapping: 0.050300 ms MarkObjects: 1.920900 ms  DeleteObjects: 0.118100 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2546.
+Total: 2.306165 ms (FindLiveObjects: 0.236827 ms CreateObjectMapping: 0.069478 ms MarkObjects: 1.903175 ms  DeleteObjects: 0.095829 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005248 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.103 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2086 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.3 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2588.
-Total: 2.302000 ms (FindLiveObjects: 0.206900 ms CreateObjectMapping: 0.050600 ms MarkObjects: 1.925400 ms  DeleteObjects: 0.118000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

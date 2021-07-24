@@ -8,7 +8,7 @@ public class MovePlayer : MonoBehaviour
     public Animator animator;
     Vector2 movement;
     public Transform attackPoint;
-    public float attackRange = 0.5f;
+    public float attackRange = 1f;
     public LayerMask enemyLayers;
     private int attackDamage = 20;
     private float lastMovementX;

@@ -12,6 +12,7 @@ public class MoveEnemy : MonoBehaviour
     public Transform attackPoint;
     public float attackRate = 2f;
     private float nextAttackTime = 0f;
+    public float sightRange = 10f;
 
     // Start is called before the first frame update
     void Start()
@@ -27,32 +28,29 @@ public class MoveEnemy : MonoBehaviour
         Vector3 playerPos = player.transform.position;
         Vector3 thisPos = transform.position;
 
-        float diffX = playerPos[0] - thisPos[0]; //+ = right of enemy
-        float diffY = playerPos[1] - thisPos[1]; //+ = top of enemy
-        float moveX = 0, moveY = 0;
-        if (diffX > 0)
-        {
-            moveX = 1;
-        }
-        else if (diffX < 0)
-        {
-            moveX = -1;
-        }
-        if (diffY > 0)
-        {
-            moveY = 1;
-        }
-        else if (diffY < 0)
-        {
-            moveY = -1;
-        }
-        Vector3 moveDir = new Vector3(moveX, moveY).normalized;
-        rb.MovePosition(transform.position + moveDir * speed);
+        Collider2D[] seenPlayers = Physics2D.OverlapCircleAll(transform.position, sightRange, playerLayer);
+        if (seenPlayers.Length > 0) {
 
-        if (Time.time > nextAttackTime)
-        {
-            attack();
-            nextAttackTime = Time.time + 1f / attackRate;
+            float diffX = playerPos[0] - thisPos[0]; //+ = right of enemy
+            float diffY = playerPos[1] - thisPos[1]; //+ = top of enemy
+            float moveX = 0, moveY = 0;
+            if (diffX > 0) {
+                moveX = 1;
+            } else if (diffX < 0) {
+                moveX = -1;
+            }
+            if (diffY > 0) {
+                moveY = 1;
+            } else if (diffY < 0) {
+                moveY = -1;
+            }
+            Vector3 moveDir = new Vector3(moveX, moveY).normalized;
+            rb.MovePosition(transform.position + moveDir * speed);
+
+            if (Time.time > nextAttackTime) {
+                attack();
+                nextAttackTime = Time.time + 1f / attackRate;
+            }
         }
     }
 

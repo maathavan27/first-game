@@ -1,0 +1,584 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.1110; Version 2004; 64bit' Language: 'en' Physical Memory: 16315 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+K:\Unity Hub\2020.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Kapilan Balakrishnan/Documents/GitHub/first-game/SlasherGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49654
+Successfully changed project path to: C:/Users/Kapilan Balakrishnan/Documents/GitHub/first-game/SlasherGame
+C:/Users/Kapilan Balakrishnan/Documents/GitHub/first-game/SlasherGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 54.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path K:/Unity Hub/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Kapilan Balakrishnan/Documents/GitHub/first-game/SlasherGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   27.20.22001.14011
+Initialize mono
+Mono path[0] = 'K:/Unity Hub/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'K:/Unity Hub/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'K:/Unity Hub/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: K:/Unity Hub/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001203 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 49.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005071 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 49.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.191 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.6 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2543.
+Total: 2.393400 ms (FindLiveObjects: 0.190900 ms CreateObjectMapping: 0.050500 ms MarkObjects: 2.000700 ms  DeleteObjects: 0.150200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb33754739c59be037b9e16fe860f20') in 0.019571 seconds 
+  Import took 0.022846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.349514 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6170b652e791f28e2dae01803c8e71bf') in 0.007672 seconds 
+  Import took 0.011231 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007088 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.139 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.1 MB.
+System memory in use after: 94.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2547.
+Total: 2.389600 ms (FindLiveObjects: 0.196400 ms CreateObjectMapping: 0.050100 ms MarkObjects: 2.030300 ms  DeleteObjects: 0.111900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 89.671745 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Changelog.txt
+  artifactKey: Guid(b2d0d368c29184a4380701a33c9e9c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Changelog.txt using Guid(b2d0d368c29184a4380701a33c9e9c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422f5caa62730cfd94ebe1410577d6b6') in 0.048838 seconds 
+  Import took 0.052168 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005862 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.200 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.2 MB.
+System memory in use after: 94.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2551.
+Total: 2.850800 ms (FindLiveObjects: 0.310300 ms CreateObjectMapping: 0.085800 ms MarkObjects: 2.336100 ms  DeleteObjects: 0.117000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 416.088610 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props
+  artifactKey: Guid(549c9282ce98c674f9c8e0145c20eb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props using Guid(549c9282ce98c674f9c8e0145c20eb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196222241802e110a3b90fbdd3869300') in 0.010034 seconds 
+  Import took 0.013654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.399763 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Gate T1.prefab
+  artifactKey: Guid(4be821d0b78ad5043985b57b738e951b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Gate T1.prefab using Guid(4be821d0b78ad5043985b57b738e951b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2752bbd88fb6d2eae6849d6595aac9') in 0.090265 seconds 
+  Import took 0.094132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T2.prefab
+  artifactKey: Guid(5d42979a3c318c341b37b4b1f2c85750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T2.prefab using Guid(5d42979a3c318c341b37b4b1f2c85750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a1d10b6b64fab22faa1f1033500194') in 0.018523 seconds 
+  Import took 0.022084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T6.prefab
+  artifactKey: Guid(d5762f992ea3bd544bb8287f66e8f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T6.prefab using Guid(d5762f992ea3bd544bb8287f66e8f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e005e15fed937fb25d632a3fe616ba93') in 0.017449 seconds 
+  Import took 0.020994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pillar Broken.prefab
+  artifactKey: Guid(cfa0a5ef94fb05d4f97d095a05dc55c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pillar Broken.prefab using Guid(cfa0a5ef94fb05d4f97d095a05dc55c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfbe6e0459b4de56063942bb5280e62') in 0.021214 seconds 
+  Import took 0.024828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Lantern.prefab
+  artifactKey: Guid(84395be60ff2def43bb58fa039614eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Lantern.prefab using Guid(84395be60ff2def43bb58fa039614eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0079c085b29a430060df648a1fdacb0') in 0.016992 seconds 
+  Import took 0.020543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar X2.prefab
+  artifactKey: Guid(6d6991dbbdeecb1488bbf78c063d1235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar X2.prefab using Guid(6d6991dbbdeecb1488bbf78c063d1235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db433c3821ea4bfa0e086fb15cc4afa2') in 0.019957 seconds 
+  Import took 0.024008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot C.prefab
+  artifactKey: Guid(f3cc2373308c11848977b28d974a9de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot C.prefab using Guid(f3cc2373308c11848977b28d974a9de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157e5949fb050494617e67315f8dcc6b') in 0.018021 seconds 
+  Import took 0.021904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench E.prefab
+  artifactKey: Guid(d925f1d26bd95904886e446c97ec33c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench E.prefab using Guid(d925f1d26bd95904886e446c97ec33c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847d8a561caa096491d5bca752e50075') in 0.017407 seconds 
+  Import took 0.021091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair L.prefab
+  artifactKey: Guid(a92434f05fc24a2408687e0356655548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair L.prefab using Guid(a92434f05fc24a2408687e0356655548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d0daf64e6b9b2222fc782f6180dd49') in 0.016084 seconds 
+  Import took 0.019916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Gate T2.prefab
+  artifactKey: Guid(b95acdc3b0c1a444c87723520fbab2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Gate T2.prefab using Guid(b95acdc3b0c1a444c87723520fbab2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3afbafd308538fc7421f6448d4f0571') in 0.016685 seconds 
+  Import took 0.020282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken L.prefab
+  artifactKey: Guid(6bc7a266104dec640a8bc2ab2e5cd968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken L.prefab using Guid(6bc7a266104dec640a8bc2ab2e5cd968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd01bafa3dda4ccc1e118d321778087') in 0.015836 seconds 
+  Import took 0.019314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Chest.prefab
+  artifactKey: Guid(99597c7b4aa47494fb2b6061505735da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Chest.prefab using Guid(99597c7b4aa47494fb2b6061505735da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd8f50fc09a8166c73f29616c2770c9') in 0.015616 seconds 
+  Import took 0.019034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Coffin V.prefab
+  artifactKey: Guid(e54d3c80cde4e314eae0912eca6a93ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Coffin V.prefab using Guid(e54d3c80cde4e314eae0912eca6a93ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc4358459f33577e04673d9913757ec') in 0.014795 seconds 
+  Import took 0.018822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T7.prefab
+  artifactKey: Guid(f826bf48ad5bedc4ab6cabe6c4e498e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T7.prefab using Guid(f826bf48ad5bedc4ab6cabe6c4e498e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b840664c1788eb05e19cc87c6f84f8d4') in 0.015558 seconds 
+  Import took 0.019110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Statue.prefab
+  artifactKey: Guid(d730038d263986f4dac93230e1dd62b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Statue.prefab using Guid(d730038d263986f4dac93230e1dd62b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f25f2bef2d8a8552f2ba26cdeb946c') in 0.016028 seconds 
+  Import took 0.019872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Cube.prefab
+  artifactKey: Guid(f6a5710827e32d3489da2c249e3bc400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Cube.prefab using Guid(f6a5710827e32d3489da2c249e3bc400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f1d1e2a2704e944a531da5fd2b5169') in 0.015159 seconds 
+  Import took 0.018980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T1.prefab
+  artifactKey: Guid(ebdc6ef285e0bf542bed7e9c1bfb9923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T1.prefab using Guid(ebdc6ef285e0bf542bed7e9c1bfb9923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe8f4010f344b5896f5bfb126cb2e64') in 0.015102 seconds 
+  Import took 0.018670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair R.prefab
+  artifactKey: Guid(df420ddd0ffda274cba2d4807d8987bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair R.prefab using Guid(df420ddd0ffda274cba2d4807d8987bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957daf6f24d6d8ded1a684b6d3e0089a') in 0.015199 seconds 
+  Import took 0.019324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair M.prefab
+  artifactKey: Guid(78e9efbdf9b33994da8dfbe530f65e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair M.prefab using Guid(78e9efbdf9b33994da8dfbe530f65e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbc0f3cf16e289a1a10afd22a783e4f') in 0.014688 seconds 
+  Import took 0.018505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Gravestone C.prefab
+  artifactKey: Guid(3fcd8726c7cd53345947949baefbab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Gravestone C.prefab using Guid(3fcd8726c7cd53345947949baefbab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56239bf4da355ef154ac8e86bb6a64c0') in 0.015238 seconds 
+  Import took 0.018937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Altar.prefab
+  artifactKey: Guid(c5bdca1933fde624698bb8c6d6daa44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Altar.prefab using Guid(c5bdca1933fde624698bb8c6d6daa44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b23f14fa31ff93a35d5aaeb5a61708') in 0.016324 seconds 
+  Import took 0.020009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot B.prefab
+  artifactKey: Guid(63ee4b6a40c55fd429759b807832ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot B.prefab using Guid(63ee4b6a40c55fd429759b807832ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4226885eabd2112e9f6370831e24d939') in 0.015580 seconds 
+  Import took 0.018950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T3.prefab
+  artifactKey: Guid(92a9322ee3bba184f91fbebe53b69bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T3.prefab using Guid(92a9322ee3bba184f91fbebe53b69bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9345324b8ef32cc456e071b6d4e655e') in 0.015419 seconds 
+  Import took 0.018838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T5.prefab
+  artifactKey: Guid(139b2d65b3145ad45bc13b6d111199de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T5.prefab using Guid(139b2d65b3145ad45bc13b6d111199de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc22834111370d7ba03e54e60e35fd1') in 0.014826 seconds 
+  Import took 0.018686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar X3.prefab
+  artifactKey: Guid(4fad9c4de6b725a43bb1200ed9479c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar X3.prefab using Guid(4fad9c4de6b725a43bb1200ed9479c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1fb77035ef57af1f8b135beaed5938') in 0.016627 seconds 
+  Import took 0.020698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Barrel.prefab
+  artifactKey: Guid(413081fc53a78a043b38591243616398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Barrel.prefab using Guid(413081fc53a78a043b38591243616398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9afb9ada9c28facbeb49c595f46af1') in 0.015111 seconds 
+  Import took 0.019226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Chest Open.prefab
+  artifactKey: Guid(17b0c1ef334d17e4bbb74c4778001705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Chest Open.prefab using Guid(17b0c1ef334d17e4bbb74c4778001705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab9eb34b60bb638421741c34cf9f515') in 0.016415 seconds 
+  Import took 0.020471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T1.prefab
+  artifactKey: Guid(6d69371a87148ee4dac7b2b814437ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T1.prefab using Guid(6d69371a87148ee4dac7b2b814437ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572d0881f44be1b20c8bbe12ada8fc29') in 0.015896 seconds 
+  Import took 0.019828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Crate Small.prefab
+  artifactKey: Guid(2e2ac125e54a1e44780363d638b1df34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Crate Small.prefab using Guid(2e2ac125e54a1e44780363d638b1df34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcb4420e152becb5ddcf41fe4ad1c96') in 0.015792 seconds 
+  Import took 0.019513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench S.prefab
+  artifactKey: Guid(8fd7cba4384381e4aad6dc90158fc9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench S.prefab using Guid(8fd7cba4384381e4aad6dc90158fc9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1b4bbd4f0ff186f0632098b261fa2e') in 0.015803 seconds 
+  Import took 0.019145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pillar.prefab
+  artifactKey: Guid(41ea6afb203377e42995d7d016ea5907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pillar.prefab using Guid(41ea6afb203377e42995d7d016ea5907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd4148c95a15a3ed71442a411cb14da') in 0.015257 seconds 
+  Import took 0.018841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Road Sign E.prefab
+  artifactKey: Guid(b823debd04fd63f4d8e579210fe0ff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Road Sign E.prefab using Guid(b823debd04fd63f4d8e579210fe0ff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e94fe4821ea53498014c4269e9e057') in 0.014929 seconds 
+  Import took 0.019017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken M.prefab
+  artifactKey: Guid(295e819650a63784185fc3d55ce9e650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken M.prefab using Guid(295e819650a63784185fc3d55ce9e650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43cc4fa11f99b93be55e1eca07f38e8') in 0.015307 seconds 
+  Import took 0.018866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken R.prefab
+  artifactKey: Guid(b7a5fce6e52ebbf488a8e8516c6692cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken R.prefab using Guid(b7a5fce6e52ebbf488a8e8516c6692cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12656f256732fb49137ea6ae6f9bda1e') in 0.015522 seconds 
+  Import took 0.018950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T2.prefab
+  artifactKey: Guid(713b33322b495794e92184973ece3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T2.prefab using Guid(713b33322b495794e92184973ece3034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd614ea6481832bb83cdf7fac7a71bf0a') in 0.014431 seconds 
+  Import took 0.017881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T4.prefab
+  artifactKey: Guid(4c4e80b50a323dc478f7c84e0b8fdad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T4.prefab using Guid(4c4e80b50a323dc478f7c84e0b8fdad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5984633127f034ad6c52f01ec152d1') in 0.014430 seconds 
+  Import took 0.017858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Coffin H.prefab
+  artifactKey: Guid(42d58802fe231b14c8692b0c06082f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Coffin H.prefab using Guid(42d58802fe231b14c8692b0c06082f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f5f82356ae6a6c29201cf811bee42c') in 0.016218 seconds 
+  Import took 0.020185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot A.prefab
+  artifactKey: Guid(ac719b1d0f58391469cc19fd947ca44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot A.prefab using Guid(ac719b1d0f58391469cc19fd947ca44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad73da4c3c3aa228ba3ead5d0e3ab7e') in 0.014208 seconds 
+  Import took 0.017573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Gravestone B.prefab
+  artifactKey: Guid(6242b925f1d3e0d44a183102cd3d4c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Gravestone B.prefab using Guid(6242b925f1d3e0d44a183102cd3d4c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd675cb2f1817326a34bc60d2b155d744') in 0.015007 seconds 
+  Import took 0.018736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Well.prefab
+  artifactKey: Guid(91afc0649ae41a64c860a5d49f05ff40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Well.prefab using Guid(91afc0649ae41a64c860a5d49f05ff40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e06cc69a16bbb566bf2fd1576ed0dc6') in 0.015015 seconds 
+  Import took 0.018582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Crate.prefab
+  artifactKey: Guid(fb2df5b680b64b449a78162ebcd98e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Crate.prefab using Guid(fb2df5b680b64b449a78162ebcd98e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1492deae8bd2454a4b4f6659ebb313') in 0.015816 seconds 
+  Import took 0.019550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar Broken.prefab
+  artifactKey: Guid(8728cc48d2747494893fd60426c06f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar Broken.prefab using Guid(8728cc48d2747494893fd60426c06f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c35e9f89ae83292e280a3a65ca92c13') in 0.014854 seconds 
+  Import took 0.018382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench W.prefab
+  artifactKey: Guid(8eb546cfc24c8c24196899cee5797135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench W.prefab using Guid(8eb546cfc24c8c24196899cee5797135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef6c416d74035d351ee012b9721b5a5') in 0.015338 seconds 
+  Import took 0.019073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Road Sign W.prefab
+  artifactKey: Guid(5c635e5bc09c93043a53ee0e17e89d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Road Sign W.prefab using Guid(5c635e5bc09c93043a53ee0e17e89d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5749b50b0750cb2d8344706e5823ae4d') in 0.014881 seconds 
+  Import took 0.018229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T3.prefab
+  artifactKey: Guid(ba7fef4c928d8c4459466bf93171730e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T3.prefab using Guid(ba7fef4c928d8c4459466bf93171730e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cfae83bb96cf56b003c004e850d75e') in 0.015027 seconds 
+  Import took 0.018723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Gravestone A.prefab
+  artifactKey: Guid(6d9a1504606c57143b1a8bbc2249aabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Gravestone A.prefab using Guid(6d9a1504606c57143b1a8bbc2249aabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34f3819bcdc5ef656d75332d18f0fa8') in 0.015418 seconds 
+  Import took 0.018996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.346264 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Wooden Gate Opened.prefab
+  artifactKey: Guid(8e9c401d7a70ec94d956296ea011f594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Wooden Gate Opened.prefab using Guid(8e9c401d7a70ec94d956296ea011f594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48867ca469d99121376787f594061c96') in 0.014365 seconds 
+  Import took 0.018149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Wooden Gate.prefab
+  artifactKey: Guid(6a057178eb028e94fb93bf39262ea3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Wooden Gate.prefab using Guid(6a057178eb028e94fb93bf39262ea3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee769304b1c5499844651058c7f8da64') in 0.014255 seconds 
+  Import took 0.017816 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005088 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.204 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.3 MB.
+System memory in use after: 97.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2562.
+Total: 2.709900 ms (FindLiveObjects: 0.200900 ms CreateObjectMapping: 0.079300 ms MarkObjects: 2.307400 ms  DeleteObjects: 0.120800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

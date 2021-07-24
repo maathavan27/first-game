@@ -28,12 +28,14 @@ public class MovePlayer : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
-        
-        if (movement.x != 0) {
+
+        if (movement.x != 0)
+        {
             lastMovementX = movement.x;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space)) {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
             attack();
         }
     }
@@ -43,40 +45,54 @@ public class MovePlayer : MonoBehaviour
     {
         float speed = 0.1f;
         float moveX = 0, moveY = 0;
-        if (Input.GetKey(KeyCode.W)) {
+        if (Input.GetKey(KeyCode.W))
+        {
             moveY = 1;
-        } else if (Input.GetKey(KeyCode.S)) {
+        }
+        else if (Input.GetKey(KeyCode.S))
+        {
             moveY = -1;
         }
-        if (Input.GetKey(KeyCode.D)) {
+        if (Input.GetKey(KeyCode.D))
+        {
             moveX = 1;
-        } else if (Input.GetKey(KeyCode.A)) {
+        }
+        else if (Input.GetKey(KeyCode.A))
+        {
             moveX = -1;
         }
-        if (Input.GetKey(KeyCode.RightShift)) {
+        if (Input.GetKey(KeyCode.RightShift))
+        {
             speed = 0.25f;
-        } else {
+        }
+        else
+        {
             speed = 0.1f;
         }
-        
+
         Vector3 moveDir = new Vector3(moveX, moveY).normalized;
         rb.MovePosition(transform.position + moveDir * speed);
 
     }
 
-    void attack() {
+    void attack()
+    {
         Debug.Log("Attack1");
-        if (lastMovementX > 0) {
+        if (lastMovementX > 0)
+        {
             attackPoint.position = transform.position + new Vector3(0.2f, 0);
             animator.Play("attack");
-        } else {
+        }
+        else
+        {
             attackPoint.position = transform.position + new Vector3(-0.2f, 0);
             animator.Play("attackleft");
         }
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
-        foreach (Collider2D enemy in hitEnemies) {
+        foreach (Collider2D enemy in hitEnemies)
+        {
             Debug.Log("hit " + enemy.name);
             enemy.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
         }
@@ -88,5 +104,3 @@ public class MovePlayer : MonoBehaviour
         }
     }*/
 }
-
-

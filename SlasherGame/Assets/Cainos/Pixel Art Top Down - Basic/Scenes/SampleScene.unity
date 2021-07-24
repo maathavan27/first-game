@@ -256,6 +256,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &231807976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231807969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17faaa8eca0539b4bb235ad32d76ddf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
 --- !u!1001 &244577949
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16396,7 +16409,7 @@ PrefabInstance:
     - target: {fileID: 1571841695868600103, guid: 82b6807934dd0fc4880ad8162495eeff,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2065106710663825153, guid: 82b6807934dd0fc4880ad8162495eeff,
         type: 3}
@@ -17254,7 +17267,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2096370266}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}

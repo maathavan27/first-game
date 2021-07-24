@@ -68,7 +68,7 @@ public class MovePlayer : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies) {
             Debug.Log("hit " + enemy.name);
-            enemy.GetComponent<EnemyHealth>().takeDamage(attackDamage);
+            enemy.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
         }
     }
 

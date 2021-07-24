@@ -11,6 +11,7 @@ public class MovePlayer : MonoBehaviour
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
     private int attackDamage = 20;
+    private float lastMovementX;
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +28,10 @@ public class MovePlayer : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
-
+        
+        if (movement.x != 0) {
+            lastMovementX = movement.x;
+        }
 
         if (Input.GetKeyDown(KeyCode.Space)) {
             attack();
@@ -62,7 +66,13 @@ public class MovePlayer : MonoBehaviour
 
     void attack() {
         Debug.Log("Attack1");
-        animator.Play("attack");
+        if (lastMovementX > 0) {
+            attackPoint.position = transform.position + new Vector3(0.2f, 0);
+            animator.Play("attack");
+        } else {
+            attackPoint.position = transform.position + new Vector3(-0.2f, 0);
+            animator.Play("attackleft");
+        }
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 

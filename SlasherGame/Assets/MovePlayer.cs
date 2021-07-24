@@ -7,6 +7,10 @@ public class MovePlayer : MonoBehaviour
     private Rigidbody2D rb;
     public Animator animator;
     Vector2 movement;
+    public Transform attackPoint;
+    public float attackRange = 0.5f;
+    public LayerMask enemyLayers;
+    private int attackDamage = 20;
 
     // Start is called before the first frame update
     void Start()
@@ -24,9 +28,9 @@ public class MovePlayer : MonoBehaviour
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
+
         if (Input.GetKeyDown(KeyCode.Space)) {
-            Debug.Log("Attack1");
-            animator.Play("attack");
+            attack();
         }
     }
 
@@ -55,4 +59,24 @@ public class MovePlayer : MonoBehaviour
         rb.MovePosition(transform.position + moveDir * speed);
 
     }
+
+    void attack() {
+        Debug.Log("Attack1");
+        animator.Play("attack");
+
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+        foreach (Collider2D enemy in hitEnemies) {
+            Debug.Log("hit " + enemy.name);
+            enemy.GetComponent<EnemyHealth>().takeDamage(attackDamage);
+        }
+    }
+
+    /*private void OnDrawGizmosSelected() {
+        if (attackPoint != null) {
+            Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+        }
+    }*/
 }
+
+

@@ -45,6 +45,12 @@ public class MovePlayer : MonoBehaviour
         } else {
             speed = 0.1f;
         }
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            Debug.Log("Attack1");
+            animator.Play("attack");
+
+
+        }
         Vector3 moveDir = new Vector3(moveX, moveY).normalized;
         rb.MovePosition(transform.position + moveDir * speed);
 

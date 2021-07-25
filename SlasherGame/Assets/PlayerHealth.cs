@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -31,9 +32,11 @@ public class PlayerHealth : MonoBehaviour
             Debug.Log("you are dead");
 
             //go to game over screen
+            SceneManager.LoadScene("GameOver");
             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             GetComponent<BoxCollider2D>().enabled = false;
             GetComponent<MovePlayer>().enabled = false;
+
         }
     }
 

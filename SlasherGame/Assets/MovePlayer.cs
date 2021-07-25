@@ -13,6 +13,7 @@ public class MovePlayer : MonoBehaviour
     private int attackDamage = 20;
     private float lastMovementX;
     public bool speedup;
+    public int killCount;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class MovePlayer : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         rb.freezeRotation = true;
         speedup = false;
+        killCount = 0;
     }
 
     void Update()

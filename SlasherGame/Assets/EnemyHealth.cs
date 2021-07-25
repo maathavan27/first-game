@@ -35,7 +35,7 @@ public class EnemyHealth : MonoBehaviour
         //play death animation
 
         Debug.Log("dead");
-
+        GetComponent<SpriteRenderer>().enabled = false;
         GetComponent<MoveEnemy>().player.GetComponent<MovePlayer>().killCount++;
         GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         GetComponent<BoxCollider2D>().enabled = false;
